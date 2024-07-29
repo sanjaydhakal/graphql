@@ -1,0 +1,28 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casual": "^1.6.2",
+    "express": "^4.19.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.9.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.0"
+  }
+}
